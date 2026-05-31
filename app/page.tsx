@@ -6,12 +6,11 @@ import { navItems } from "@/data";
 const Hero = dynamic(() => import("@/components/Hero"), { ssr: false });
 const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 const RecentProjects = dynamic(() => import("@/components/RecentProjects"), { ssr: false });
-const MiniProjects = dynamic(() => import("@/components/MiniProjects"), { ssr: false });
 const TechStack = dynamic(() => import("@/components/TechStack"), { ssr: false });
 const Experience = dynamic(() => import("@/components/Experience"), { ssr: false });
 const Approach = dynamic(() => import("@/components/Approach"), { ssr: false });
-const Coding = dynamic(() => import("@/components/Coding"), { ssr: false });
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
+
 
 const FloatingNav = dynamic(
   () =>
@@ -26,12 +25,10 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <RecentProjects />
-        <MiniProjects/>
         <TechStack/>
         <Experience />
         <Approach />
-        <Coding/>
+        
         <Footer />
       </div>
     </main>

@@ -1,10 +1,45 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Coding", link: "#coding" },
+  { name: "Projects", link: "/projects" },
+  { name: "Coding", link: "/coding" },
   { name: "Tech Stack", link: "#tech-stack"},
   { name: "Experience", link: "#experience"},
   { name: "Contact", link: "#contact" },
+];
+
+export const gameProjects = [
+  {
+    id: 1,
+    title: "Sudoku Solver",
+    des: "An intelligent Sudoku Solver built using JavaScript that instantly solves complex puzzles using efficient backtracking algorithms.",
+    img: "/suduko.png",
+    iconLists: ["/js.svg", "/css.svg", "/html.svg"],
+    link: "https://sudoku-eight-iota.vercel.app/SsGame",
+  },
+  {
+    id: 2,
+    title: "Snake Game",
+    des: "A classic Snake Game with smooth controls, score tracking, and responsive gameplay built using HTML, CSS, and JavaScript.",
+    img: "/snake.png",
+    iconLists: ["/js.svg", "/css.svg", "/html.svg"],
+    link: "https://snake-game-dnxd.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Tetris Game",
+    des: "A modern version of the Tetris Game featuring dynamic block movement, collision detection, and increasing difficulty levels.",
+    img: "/tetris.png",
+    iconLists: ["/js.svg", "/css.svg", "/html.svg"],
+    link: "https://twinklekumari2.github.io/Tetris-Game/",
+  },
+  {
+    id: 4,
+    title: "Dice Game",
+    des: "A modern web based dice game, guess the dice number efficiently through a clean and responsive interface.",
+    img: "/dicegame.png",
+    iconLists: ["/js.svg", "/css.svg", "/html.svg"],
+    link: "https://paste-three-chi.vercel.app",
+  },
 ];
 
 export const gridItems = [
@@ -104,6 +139,23 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/gsap.svg"],
     link: "https://services-kappa-two.vercel.app/",
   },
+  {
+  id: 5,
+  title: "DiscoverCollege - College Discovery Platform",
+  des: "A modern college discovery platform that helps students explore, compare, and shortlist engineering colleges across India using advanced filters and an intuitive user interface.",
+  img: "/clg.png",
+  iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg"],
+  link: "https://college-discovery-platform-five-sooty.vercel.app/",
+},
+{
+  id: 6,
+  title: "AgenticAiBot - Web Based Loan Application",
+  des: "An AI-powered loan assistance platform that guides users through the loan application process, answers queries in real time, and streamlines document and eligibility checks.",
+  img: "/chatbot.png",
+  iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/nodejs.svg"],
+  link: "https://agentic-ai-chatbot-jade.vercel.app/",
+},
+
 ];
 
 export const companies = [
@@ -201,21 +253,33 @@ export const companies = [
 
 export const workExperience = [
   {
-  id: 1,
-  title: "Frontend Engineer at TEDxIIITBHAGALPUR",
-  desc: "Developed and optimized responsive user interfaces using React.js and Tailwind CSS, enhancing user engagement and overall website performance.",
-  className: "md:col-span-2",
-  thumbnail: "/exp1.svg",
-  url: "https://tedxiiitbhagalpur.iiitbh.ac.in/"
-},
-{
-  id: 2,
-  title: "Joint Secretary - Technical at Unnati Society",
-  desc: "Collaborated in organizing technical events, managing development tasks, and contributing to innovative technical initiatives within the society.",
-  className: "md:col-span-2",
-  thumbnail: "/exp4.svg",
-  url: ""
-},
+    id: 1,
+    title: "Frontend Engineer at TEDx IIIT Bhagalpur",
+    desc: "Developed and optimized responsive user interfaces using React.js and Tailwind CSS, enhancing user engagement and overall website performance.",
+    thumbnail: "/tedx.svg",
+    className: "md:col-span-2",
+  },
+  {
+    id: 2,
+    title: "Joint Secretary - Technical at Unnati Society",
+    desc: "Collaborated in organizing technical events, managing development tasks, and contributing to innovative technical initiatives within the society.",
+    thumbnail: "/unnati.svg",
+    className: "md:col-span-2",
+  },
+  {
+    id: 3,
+    title: "Internshala Student Partner",
+    desc: "Represented Internshala on campus, promoted career opportunities, and helped students engage with internships and skill-development programs.",
+    thumbnail: "/internshala.svg",
+    className: "md:col-span-2",
+  },
+  {
+    id: 4,
+    title: "General Secretary - Adhyaay",
+    desc: "Led the Mentorship and Counselling Board of IIIT Bhagalpur, coordinating academic guidance and student support initiatives.",
+    thumbnail: "/adhyaay.svg",
+    className: "md:col-span-2",
+  },
 ];
 
 export const socialMedia = [
